@@ -1,8 +1,8 @@
 [hwang@localhost ~]$ pwd
 /home/hwang
 [hwang@localhost ~]$ ls
-Open Download Document Desktop Video Photo Format Music
+Open Downloads Document Desktop Video Pictures Format Music
 [hwang@localhost ~]$ cd Music
 [hwang@localhost Music]$ cd ..
-[hwang@localhost ~]$ cd Picture
-[hwang@localhost Picture]$
+[hwang@localhost ~]$ cd Pictures
+[hwang@localhost Pictures]$
