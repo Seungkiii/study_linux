@@ -4,6 +4,8 @@
 
 ## **📁 Level 1: 기본 탐색 및 폴더 조작**
 
+[CLI](/codes/quests/powershell_level1.sh)
+
 ### **문제 1-1: 현재 위치 확인**
 
 - **현재 작업 중인 디렉터리의 경로를 확인하세요**
@@ -32,6 +34,8 @@
 
 ## **📄 Level 2: 파일 생성 및 조작**
 
+[CLI](/codes/quests/powershell_level2.sh)
+
 ### **문제 2-1: 텍스트 파일 생성**
 
 - **documents 폴더에 hello.txt 파일을 생성하고 "Hello PowerShell!" 내용을 입력하세요**
@@ -53,6 +57,8 @@
 
 ## **🔄 Level 3: 파일 이동 및 이름 변경**
 
+[CLI](/codes/quests/powershell_level3.sh)
+
 ### **문제 3-1: 파일 이동**
 
 - **temp 폴더에 test.txt 파일을 생성하세요**
@@ -71,6 +77,8 @@
 
 ## **🗑️ Level 4: 삭제 연습**
 
+[CLI](/codes/quests/powershell_level4.sh)
+
 ### **문제 4-1: 개별 파일 삭제**
 
 - **documents/moved_file.txt 파일을 삭제하세요**
@@ -84,6 +92,8 @@
 ---
 
 ## **🚀 Level 5: 종합 응용**
+
+[CLI](/codes/quests/powershell_level5.sh)
 
 ### **문제 5-1: 프로젝트 구조 만들기**
 
