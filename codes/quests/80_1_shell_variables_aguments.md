@@ -78,3 +78,23 @@ fi
 ### **💡 힌트**
 
 - $1, $2를 사용하여 외부 인자를 받을 수 있습니다.
+
+
+### 오류상황
+
+```bash
+hwang@localhost ~/Downloads]$ source ./80_1_shell_variables_aguments.sh welcome.txt "Hello Linux Learners!”
+bash: !”: event not found
+```
+
+명령어에`‘!’` 가 포함되면 위와 같은 오류가 난다. 왜냐하면 쉘 스크립트에서는 느낌표는 리눅스 쉘 스크립트에서 히스토리 확장기기능을 사용하기 때문에 오류가 나올 수 있다.
+
+해결방법은 이스케이프와 작은 따옴표를 사용하는것이다.
+
+```bash
+# \로 이스케이프
+source ./80_1_shell_variables_aguments.sh welcome.txt "Hello Linux Learners\!”
+
+# '' 사용
+source ./80_1_shell_variables_aguments.sh welcome.txt 'Hello Linux Learners!'
+```
