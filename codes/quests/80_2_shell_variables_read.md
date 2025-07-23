@@ -15,6 +15,6 @@ input values : argument_first read_first
 [hwang@localhost ~/Downloads]$ cat 80_2_shell_variables_read.sh 
 read -p "read input : " argument_first
 echo
-echo "input values : argument_first $argument_first"
+echo "input values : $1 $argument_first"
 
 ```
